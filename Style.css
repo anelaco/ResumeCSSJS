@@ -1,0 +1,210 @@
+/*
+Name: Anela Cokovic
+Course:CS412
+Assignment: Project 2 - CSS
+Date: 06.11.2021
+Purpose:CSS Basics
+
+*/
+
+body.this{
+    background-color:rgb(238, 227, 182);
+    font-family: sans-serif;
+    margin-bottom: 40px;
+
+}
+h1.main{
+    font-family: Garamond;
+    font-style:normal;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(117, 52, 5);
+   font-weight: bolder;
+}
+img.Profile{
+    width: 100%;
+    border: sandybrown;
+    position: relative;
+
+}
+button.btn{
+    background-color: sandybrown;
+    border: sandybrown;
+}
+div.col-md-1{
+    align-content: center;
+    align-items: center;
+    
+}
+div.pic {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  
+  div.container1 {
+    text-align: center;
+    padding: 10px 20px;
+  } 
+  h3.st{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: chocolate;
+    }
+li.nav{
+    display: inline;
+    float: left;
+    border-right: 1px solid rgb(255, 254, 254);
+}
+li.nav2{
+    display: inline;
+    float: right;
+    
+}
+a.nav {
+    display: block;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+}
+ul.nav{
+      background-color:rgb(252, 193, 84);
+}
+p.info{
+    text-align: center;
+    font-size: 120%;
+    position: -webkit-sticky;
+    margin-top: 30px;
+}
+h4.w{
+    font-weight: bolder;
+}
+
+a.link{
+    color: rgb(199, 107, 41);
+}
+p.w{
+    margin-bottom: 25px;
+}
+
+abbr.a {
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    }
+b{
+    color:rgb(179, 87, 21) ;
+}
+strong{
+    color:rgb(179, 87, 21) ;
+}
+p.biography{
+    text-indent: 30px;
+}
+
+button.button1 {
+    background-color: chocolate;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  
+button.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+div.myButton{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+h3.hobby{
+    color: chocolate;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.quiz-container{
+    background: rgb(252, 193, 84);
+    box-shadow: 0 0 10px 2px lightgoldenrodyellow;
+    width:300px;
+}
+
+.quiz-header{
+    padding: 2rem;
+}
+h2.question{
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul.qq{
+    list-style-type:none;
+    padding: 0;
+
+}
+ul.qq li{
+    font-size: 1.3rem;
+    margin: 1rem;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul.qq li label{
+    cursor: pointer;
+}
+
+button.submit{
+    background: chocolate;
+    color: black;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button.submit :hover{
+    color: rgb(139, 65, 12);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+p.p-4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+#panel, #flip {
+    padding: 5px;
+    width: 350px;
+    text-align: center;
+    background-color: rgb(255, 208, 121);
+    border: solid 1px rgb(255, 208, 121);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #panel {
+    padding: 10px 50px 20px 25px;
+    display: none;
+    width: 350px;
+    text-align: center;
+
+  }
+
+  #text{
+      text-align: center;
+      display: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
